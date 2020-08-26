@@ -1,0 +1,151 @@
+/*********************TAG SELECTORS********************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 65px auto 0 auto;
+}
+
+h2 {
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%;
+}
+
+p{
+  color: #40514E;
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 30px 0 30px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+/*********************CLASS SELECTORS********************/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  position: relative;
+  padding-top: 30px;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #66BFBF;
+  padding: 30px 0 30px;
+  margin-top: 40px;
+}
+
+.full{
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.pfp {
+  width: 150px;
+}
+
+.dev-heading {
+  margin-top: 0;
+}
+
+.sub-title{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.painting{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.typing{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright-text{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.message-me-description{
+  width: 40%;
+  margin: 40px auto 40px;
+}
+
+.contact-me-btn {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #66bfbf 5%, #408c99 100%);
+	background-color:#66bfbf;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.contact-me-btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #66bfbf 100%);
+	background-color:#408c99;
+}
+.contact-me-btn:active {
+	position:relative;
+	top:1px;
+}
